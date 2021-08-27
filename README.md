@@ -32,18 +32,31 @@ This data frame has 14 features/attributes and 10K customers/instances.
 ![row](https://user-images.githubusercontent.com/87844891/131079889-18694c86-e933-4744-9ad1-4ca20bcc6663.png)
 
 -RowNumber 
+
 -CustomerId
+
 -Surname 
+
 -CreditScore (that depicts a consumer's creditworthiness)
+
 -Geography (demographic of the customer)
+
 -Gender
+
 -Age
+
 -Tenure (the number of years they have been in the bank)
+
 -Balance (the amount of money they have on their account)
+
 -Number of Products (the number of products they use from the bank) 
+
 -Has Card (1= has a credit card. 0= no credit card)
+
 -IsActiveMember (1= active member. 0= inactive member)
+
 -EstimatedSalary 
+
 -Exited (whether the customer has churned (0 = No, one = Yes) 
 
 I checked the data type and dropped the RowNumber, CustomerId, and Surname columns as it doesn't give any significant value for analysis. Also checked for the missing value in the dataset, and there is no missing value
@@ -101,3 +114,11 @@ From this analysis, I note the following:
 - The customer with pretty large balance is exiting compared to those who have small balance
 
 - The salary does not cause any differences to the amount of customers exited and retained
+
+
+
+Lastly, I analyzed the correlations between the variables
+
+![image](https://user-images.githubusercontent.com/87844891/131086940-cea91d02-f0ad-482b-a7e2-ab4328b1749b.png)
+
+- And there is no significant correlation between the variables
