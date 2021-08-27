@@ -122,3 +122,5 @@ Lastly, I analyzed the correlations between the variables
 ![image](https://user-images.githubusercontent.com/87844891/131086940-cea91d02-f0ad-482b-a7e2-ab4328b1749b.png)
 
 - And there is no significant correlation between the variables
+
+
